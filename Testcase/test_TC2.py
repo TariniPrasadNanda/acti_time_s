@@ -11,5 +11,5 @@ def test_TC2(launch):
     l.username("admin")
     l.password("manager")
     l.login_button()
-    verify_title(driver,"actiTIME -Enter Time-Track")
+    verify_title(driver,"actiTIME - Enter Time-Track")
     
